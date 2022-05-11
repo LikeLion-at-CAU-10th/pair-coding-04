@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+a {
+    outline: 0;
+    text-decoration: none;
+    color:#fff;
+}
+
+header {
+    display: flex;
+}
+
+header img {
+    height:40px;
+}
+
+search{
+    padding:20px 50px;
+}
+
+.container {
+    margin:0px 30px;
+}
+
+.first-row{
+    display:flex;
+    
+}
+
+.photo img {
+    height:200px;
+    width:200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.price p{
+    font-weight: 750;
+    margin: 8px 0px;
+}
+
+.like p{
+    color:rgb(158, 158, 158);
+    margin-top:6px;
+}
+
+
+
