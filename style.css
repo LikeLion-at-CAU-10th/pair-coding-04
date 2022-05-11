@@ -30,8 +30,15 @@ header img {
   margin-right: 40px;
 }
 .inputDiv input {
-  padding: 10px 100px;
+  padding: 10px 12px;
+  width:342px;
+
 }
+
+input::placeholder {
+  opacity:0.7;
+}
+
 .inputDiv {
   position: relative;
   margin-right: 300px;
@@ -43,9 +50,13 @@ header img {
   color: gray;
 }
 .download {
-  margin-right: 120px;
   display: flex;
+  justify-content: center;
+  font-weight: 600;
   align-items: center;
+  width:400px;
+  height:40px;
+  margin-right: 20px;
 }
 
 .container {
@@ -54,9 +65,14 @@ header img {
 }
 .chat {
   border: 1px solid gray;
-  border-radius: 10px;
+  border-radius: 8px;
   display: flex;
+  justify-content: center;
+  font-weight: 600;
   align-items: center;
+  width:400px;
+  height:40px;
+
 }
 h1 {
   text-align: center;
