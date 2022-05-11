@@ -4,7 +4,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+.or{
+    display:flex;
+}
 .container {
     background-color: white;
     border-radius: 15px;
@@ -31,6 +33,13 @@ header {
 .login {
     background-color: blue;
     text-align: center;
+    border-radius:5px;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    font-size:1.6vw;
+    color:white;
+    padding-top: 1vw;
+    padding-bottom:1vw;
 }
 
 .xbar {
@@ -42,4 +51,63 @@ header {
     font-size: 1.4vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
+}
+.signup{
+    text-align: center;
+}
+.google{
+    display:flex;
+    border-style:solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-color:gray;
+    text-align: center;
+    padding-top:1vw;
+    padding-bottom:1vw;
+    margin-bottom:1vw;
+}
+.googleimg{
+    margin-right:8vw;
+}
+.facebook{
+    display:flex;
+    border-style:solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-color:skyblue;
+    text-align: center;
+    padding-top:1vw;
+    padding-bottom:1vw;
+    margin-bottom:1vw;
+}
+.facebookimg{
+    margin-right:8vw;
+}
+.naver{
+    display:flex;
+    border-style:solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-color:green;
+    text-align: center;
+    padding-top:1vw;
+    padding-bottom:1vw;
+    margin-bottom:1vw;
+}
+.naverimg{
+    margin-right:8vw;
+}
+.kakao{
+    display:flex;
+    border-style:solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-color:yellow;
+    text-align: center;
+    padding-top:1vw;
+    padding-bottom:1vw;
+    margin-bottom:1vw;
+}
+.kakaoimg{
+    margin-right:8vw;
 }
