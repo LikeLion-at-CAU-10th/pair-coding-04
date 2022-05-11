@@ -33,7 +33,7 @@ search{
 
 .first-row{
     display:flex;
-    
+    justify-content: be;
 }
 
 .photo img {
