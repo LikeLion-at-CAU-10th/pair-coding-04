@@ -1,12 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
+
 body {
     background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Gothic+A1';
+    
 }
-.or{
-    display:flex;
+
+
+.or {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
+
+.or:before{
+    content:"";
+    margin:0px 16px;
+    background-color: gray;
+    height: 1px;
+    width: 43%;
+    top:1vh;
+    position: absolute;
+    right:16vw;
+    
+}
+
+.or:after{
+    content:"";
+    margin:0px 16px;
+    background-color: gray;
+    height: 1px;
+    width: 43%;
+    top:1vh;
+    line-height: 1px;
+    position: absolute;
+}
+
+
 .container {
     background-color: white;
     border-radius: 15px;
@@ -58,7 +93,7 @@ header {
 .google{
     display:flex;
     border-style:solid;
-    border-width: 1.5px;
+    border-width: 0.2vw;
     border-radius: 5px;
     border-color:gray;
     text-align: center;
@@ -68,11 +103,12 @@ header {
 }
 .googleimg{
     margin-right:8vw;
+    margin-left:1vw;
 }
 .facebook{
     display:flex;
     border-style:solid;
-    border-width: 1.5px;
+    border-width: 0.2vw;
     border-radius: 5px;
     border-color:skyblue;
     text-align: center;
@@ -82,11 +118,12 @@ header {
 }
 .facebookimg{
     margin-right:8vw;
+    margin-left:1vw;
 }
 .naver{
     display:flex;
     border-style:solid;
-    border-width: 1.5px;
+    border-width: 0.2vw;
     border-radius: 5px;
     border-color:green;
     text-align: center;
@@ -96,11 +133,12 @@ header {
 }
 .naverimg{
     margin-right:8vw;
+    margin-left:1vw;
 }
 .kakao{
     display:flex;
     border-style:solid;
-    border-width: 1.5px;
+    border-width: 0.2vw;
     border-radius: 5px;
     border-color:yellow;
     text-align: center;
@@ -110,4 +148,9 @@ header {
 }
 .kakaoimg{
     margin-right:8vw;
+    margin-left:1vw;
+}
+
+.statetext {
+    margin-left:0.6vw;
 }
