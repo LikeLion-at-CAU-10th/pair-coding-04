@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  outline: 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  background-color: #fff;
+  padding: 20px 180px;
+}
+
+header img {
+  height: 35px;
+  margin-right: 40px;
+}
+.inputDiv input {
+  padding: 10px 12px;
+  width: 342px;
+  border: 1px solid rgba(236, 236, 236, 0.8);
+  border-radius: 5px;
+}
+
+input::placeholder {
+  opacity: 0.7;
+}
+
+.inputDiv {
+  position: relative;
+  margin-right: 300px;
+}
+.inputDiv i {
+  position: absolute;
+  left: 310px;
+  top: 10px;
+  color: gray;
+}
+.download {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  margin-right: 20px;
+}
+.download i {
+  margin-left: 8px;
+  color: rgb(88, 88, 88);
+}
+
+.container {
+  margin: 80px 200px;
+}
+.chat {
+  border: 1px solid gray;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+}
+.chat h3 {
+  color: #fe893c;
+  font-size: 13.7px;
+  margin-left: 1.5px;
+}
+h1 {
+  text-align: center;
+  margin-top: 130px;
+  font-size: 45px;
+}
+
+/* Product */
+.first-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.second-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo img {
+  height: 220px;
+  width: 220px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 0.6px solid rgb(189, 189, 189);
+}
+
+.title p {
+  font-size: 16px;
+}
+.price p {
+  font-weight: 700;
+  margin: 8px 0px;
+}
+.location p {
+  font-size: 14px;
+}
+.like p {
+  color: rgb(158, 158, 158);
+  margin-top: 6px;
+  font-size: 13.5px;
+}
