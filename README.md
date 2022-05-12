@@ -9,3 +9,7 @@
 <img width="1435" alt="스크린샷 2022-05-11 오후 11 32 47" src="https://user-images.githubusercontent.com/81007078/167875323-a2320146-c381-4021-bab2-b15faf2d5207.png">
 
 ### Beta Team | 해윤&동길
+
+해윤 : 눈물, 디자인, 구글링 <br/>
+동길 : 눙물, 응원(?), 구글링
+![image](https://user-images.githubusercontent.com/99241871/168002000-971785d8-003d-47b5-825e-90f9faf1d5e4.png)
